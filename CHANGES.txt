@@ -6,6 +6,10 @@ CHANGES
 
 - Update to Bootstrap 4.0.0 [icemac]
 
+- Update to `fanstatic >= 1.0a3`. [icemac]
+
+- Drop support for Python 2.6 [icemac]
+
 
 3.3.4 (2015-04-21)
 ==================

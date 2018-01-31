@@ -30,7 +30,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        'fanstatic',
+        'fanstatic >= 1.0a3',
         'js.jquery',
         'setuptools',
         ],

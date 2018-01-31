@@ -10,12 +10,14 @@ information::
 You can import bootstrap from ``js.bootstrap`` and ``.need`` it
 where you want these resources to be included on a page::
 
-  >>> from js.bootstrap import bootstrap
+  >>> from js.bootstrap import bootstrap, library
   >>> bootstrap.need()
 
 Render the inclusion::
 
-  >>> print needed.render()
+  >>> from fanstatic import Inclusion
+  >>> i = Inclusion(needed)
+  >>> print i.render()
   <link rel="stylesheet" type="text/css" href="http://localhost/fanstatic/bootstrap/css/bootstrap.css" />
   <script type="text/javascript" src="http://localhost/fanstatic/jquery/jquery.js"></script>
   <script type="text/javascript" src="http://localhost/fanstatic/bootstrap/js/bootstrap.bundle.js"></script>
