@@ -31,7 +31,7 @@ setup(
     zip_safe=False,
     install_requires=[
         'fanstatic >= 1.0a3',
-        'js.jquery',
+        'js.jquery >= 1.9.1',
         'setuptools',
         ],
     entry_points={
