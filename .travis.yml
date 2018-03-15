@@ -9,4 +9,6 @@ install:
   - pip install pytest
   - pip install -e .
 script:
-  - bin/pytest js/bootstrap4/test_bootstrap.txt
+  - pytest js/bootstrap4/test_bootstrap.txt
+cache:
+  pip: true
