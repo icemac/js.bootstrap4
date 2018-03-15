@@ -9,4 +9,4 @@ install:
   - pip install setuptools --upgrade
   - python bootstrap.py
   - bin/buildout
-script: bin/py.test js/bootstrap/test_bootstrap.txt
+script: bin/py.test js/bootstrap4/test_bootstrap.txt
