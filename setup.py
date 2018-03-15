@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '3.3.5.dev0'
+version = '4.0.0.dev0'
 
 
 def read(*rnames):
@@ -30,8 +30,8 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        'fanstatic',
-        'js.jquery',
+        'fanstatic >= 1.0a3',
+        'js.jquery >= 1.9.1',
         'setuptools',
         ],
     entry_points={
