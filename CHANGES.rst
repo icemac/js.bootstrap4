@@ -4,9 +4,13 @@ CHANGES
 4.0.0 (unreleased)
 ==================
 
+- Forked from https://github.com/RedTurtle/js.bootstrap
+
 - Update to Bootstrap 4.0.0 [icemac]
 
 - Update to `fanstatic >= 1.0a3`. [icemac]
+
+- Add support for Python 3.4 up to 3.7 [icemac]
 
 - Drop support for Python 2.6 [icemac]
 
