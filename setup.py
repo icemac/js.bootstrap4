@@ -12,8 +12,8 @@ def read(*rnames):
 
 long_description = "\n\n".join([
     read('README.rst'),
-    read('js', 'bootstrap4', 'test_bootstrap.txt'),
-    read('CHANGES.txt'),
+    read('js', 'bootstrap4', 'test_bootstrap.rst'),
+    read('CHANGES.rst'),
 ])
 
 
