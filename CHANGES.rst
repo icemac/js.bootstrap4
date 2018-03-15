@@ -1,7 +1,7 @@
 CHANGES
 *******
 
-4.0.0 (unreleased)
+4.0.0 (2018-03-15)
 ==================
 
 - Forked from https://github.com/RedTurtle/js.bootstrap
