@@ -1,0 +1,12 @@
+[run]
+branch = True
+source = js.bootstrap4
+
+[report]
+precision = 2
+fail_under = 100
+
+[paths]
+source =
+    js/bootstrap4
+    .tox/*/lib/python*/site-packages/js/bootstrap4
