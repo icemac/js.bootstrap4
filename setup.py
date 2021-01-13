@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '4.0.1.dev0'
+version = '5.0.dev0'
 
 
 def read(*rnames):
@@ -30,8 +30,6 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: JavaScript',
         'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: Implementation :: CPython',
