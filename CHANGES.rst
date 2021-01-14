@@ -1,10 +1,12 @@
 CHANGES
 *******
 
-4.0.1 (unreleased)
-==================
+5.0 (unreleased)
+================
 
-- Nothing changed yet.
+- Drop support for Python 3.4 and 3.5. [icemac]
+
+- Switch to GHA as CI system. [icemac]
 
 
 4.0.0 (2018-03-15)
