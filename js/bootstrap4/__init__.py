@@ -1,5 +1,8 @@
-from fanstatic import Library, Resource, Group
+from fanstatic import Group
+from fanstatic import Library
+from fanstatic import Resource
 from js.jquery import jquery
+
 
 library = Library('bootstrap', 'resources')
 

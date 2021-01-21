@@ -30,3 +30,4 @@ separately as well, but they are already included when calling
   >>> js.bootstrap4.bootstrap_grid_css.need()
   >>> js.bootstrap4.bootstrap_reboot_css.need()
 
+.. _`fanstatic`: http://fanstatic.org
