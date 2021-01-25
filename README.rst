@@ -19,4 +19,4 @@ directory in ``js.bootstrap4``) are published to some URL.
 Contact
 =======
 
-gocept developers <``mail at gocept.com``>
+gocept developers <mail at gocept.com>
